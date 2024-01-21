@@ -1,0 +1,10 @@
+{
+  "item_count": 4,
+  "knapsack_capacity": 10,
+  "items": [
+    {"value": 10, "weight": 5},
+    {"value": 40, "weight": 4},
+    {"value": 30, "weight": 6},
+    {"value": 50, "weight": 3}
+  ]
+}
