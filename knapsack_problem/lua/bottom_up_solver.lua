@@ -85,11 +85,3 @@ local max_capacity = t.knapsack_capacity
 local items = prepare_items(t.items)
 local rs = dynamic_programming_solver(max_capacity, items)
 print_matrix2d(rs)
--- expected output:
--- [
---   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
---   [0, 0, 0, 0, 0, 10, 10, 10, 10, 10, 10],
---   [0, 0, 0, 0, 40, 40, 40, 40, 40, 50, 50],
---   [0, 0, 0, 0, 40, 40, 40, 40, 40, 50, 70],
---   [0, 0, 0, 50, 50, 50, 50, 90, 90, 90, 90]
--- ]
